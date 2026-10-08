@@ -1,0 +1,42 @@
+{
+ "intercept": 231.5088933806843,
+ "coef": {
+  "Ram_GB": 53.2195662542561,
+  "SSD_GB": 0.9069884176866911,
+  "Cpu_Family_Core M": 287.31487814034875,
+  "Cpu_Family_Core i3": 110.7739245026077,
+  "Cpu_Family_Core i5": 275.9940657414538,
+  "Cpu_Family_Core i7": 335.4107559029162,
+  "Cpu_Family_Intel Lainnya": 16.380994510209838,
+  "Cpu_Family_Lainnya": -49.29255154009881,
+  "Company_Group_Apple": 314.64213228436853,
+  "Company_Group_Asus": 30.539627276899534,
+  "Company_Group_Dell": 116.15136363349333,
+  "Company_Group_HP": 200.0648863951618,
+  "Company_Group_Lainnya": 263.9053931424063,
+  "Company_Group_Lenovo": 120.28344003020966,
+  "Company_Group_MSI": 93.86930380750633,
+  "Company_Group_Toshiba": 238.7866369715288,
+  "TypeName_Gaming": 131.40661762342577,
+  "TypeName_Netbook": -138.78943336147685,
+  "TypeName_Notebook": -235.47881953911815,
+  "TypeName_Ultrabook": 63.92350595791458,
+  "TypeName_Workstation": 727.8870805077654
+ },
+ "min_price": 174.0,
+ "mae": 248.4,
+ "metrics": [
+  {
+   "model": "Regresi linear berganda",
+   "r2": 0.719,
+   "mae": 248.4,
+   "rmse": 377.9
+  },
+  {
+   "model": "Random Forest (300 pohon)",
+   "r2": 0.714,
+   "mae": 238.7,
+   "rmse": 381.3
+  }
+ ]
+}
